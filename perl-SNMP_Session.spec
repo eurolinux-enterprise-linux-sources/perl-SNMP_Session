@@ -1,6 +1,6 @@
 Name:           perl-SNMP_Session
 Version:        1.13
-Release:        4.1%{?dist}
+Release:        5%{?dist}
 Summary:        SNMP support for Perl 5
 
 Group:          Development/Libraries
@@ -46,6 +46,9 @@ make test
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.13-5
+- Mass rebuild 2013-12-27
+
 * Wed Aug 15 2012 Daniel Mach <dmach@redhat.com> - 1.13-4.1
 - Rebuild for perl 5.16
 
